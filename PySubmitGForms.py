@@ -10,10 +10,10 @@ import re
 
 #Let targetsite be https://docs.google.com/forms/d/e/EEEEEEEEEEEEEGGGGGGGGGGGGGGGGGGG/
 #change urlin to your target site
-urlin = 'https://docs.google.com/forms/d/e/EEEEEEEEEEEEEGGGGGGGGGGGGGGGGGGG/'
+urlin = 'https://docs.google.com/forms/d/e/1FAIpQLSeO5XXQMMg0nfPP7-jHpwB69TjVpy59mWkxhc2_dKYhlXy08A/'
 
 #set mmsg to your content
-mmsg = 'Edit this part'
+mmsg = 'Thor: Ragnarok'
 
 
 
@@ -25,7 +25,7 @@ url = urlt + 'viewform'
 urlr = urlt + 'formResponse'
 
 # the number of times you submit the form, note at numbers like 9999 you will have to wait a long time
-numOfsubmit = 30
+numOfsubmit = 400
 
 
 for i in range(0,(numOfsubmit + 1)):
